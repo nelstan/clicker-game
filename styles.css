@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:aqua;
+  }
+  .clicker {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  button {
+    padding: 0%;
+    margin-left: -850px;
+  }
+  
+#counter{
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  font-style: normal;
+  position: absolute;
+  margin-top: -150px;
+}
+#buttonUpgrade{
+  margin-left: 2%;
+  position: absolute;
+}
+
+#your_level{
+  font-size: 20px;
+  font-family: "Tinys", sans-serif;
+  z-index: 1;
+  margin-top: 200px;
+}
+#level_count{
+  font-size: 40px;
+  font-size: 20px;
+  font-family: "Tinys", sans-serif;
+  z-index: 1;
+  margin-top: 204px;
+}
+
+#clickButton{
+  background-color: aqua;
+}
+
+#buttonUpgradeHour{
+  width: 40px;
+  height: 40px;
+  margin-left: 320px;
+  position: absolute;
+}
